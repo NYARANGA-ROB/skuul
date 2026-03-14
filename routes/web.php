@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\DB;
 >>>>>>> e327a8efde9094f66181c9b195fbe5df035baa20
 =======
 >>>>>>> 80e3dc5 (First commit)
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
