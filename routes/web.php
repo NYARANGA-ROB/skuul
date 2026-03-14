@@ -228,7 +228,6 @@ Route::middleware('auth:sanctum', 'verified', 'App\Http\Middleware\PreventLockAc
     });
 =======
 */
-
 Route::get('/', function () {
     return view('welcome');
 >>>>>>> 80e3dc5 (First commit)
