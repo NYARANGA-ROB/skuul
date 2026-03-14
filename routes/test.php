@@ -9,7 +9,6 @@ Route::get('/test-db', function () {
         $tables = DB::select('SHOW TABLES');
         // Get users count
         $usersCount = DB::table('users')->count();
-        
         return response()->json([
             'status' => 'success',
             'database' => DB::connection()->getDatabaseName(),
