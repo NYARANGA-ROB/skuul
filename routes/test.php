@@ -7,7 +7,6 @@ Route::get('/test-db', function () {
         DB::connection()->getPdo();
         // Get all tables
         $tables = DB::select('SHOW TABLES');
-        
         // Get users count
         $usersCount = DB::table('users')->count();
         
