@@ -59,7 +59,6 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return redirect()->route('dashboard');
 });
-
 Route::middleware(['guest'])->group(function () {
     Route::get('/register', ['App\Http\Controllers\RegistrationController', 'registerView'])->name('register');
     Route::post('/register', ['App\Http\Controllers\RegistrationController', 'register']);
