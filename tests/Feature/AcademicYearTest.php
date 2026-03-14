@@ -22,7 +22,6 @@ class AcademicYearTest extends TestCase
     }
 
     //test unauthorized user cannot view create academic year
-
     public function test_unauthorized_user_cannot_create_academic_year()
     {
         $this->unauthorized_user()
