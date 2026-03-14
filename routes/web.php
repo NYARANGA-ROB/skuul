@@ -223,7 +223,6 @@ Route::middleware('auth:sanctum', 'verified', 'App\Http\Middleware\PreventLockAc
 
         //subject routes
         Route::resource('subjects', SubjectController::class);
-
         //notice routes
         Route::resource('notices', NoticeController::class);
     });
