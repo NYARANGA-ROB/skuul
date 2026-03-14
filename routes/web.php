@@ -27,7 +27,6 @@ Route::get('/test-db', function () {
     try {
         // Test database connection
         DB::connection()->getPdo();
-        
         // Get all tables
         $tables = DB::select('SHOW TABLES');
         
