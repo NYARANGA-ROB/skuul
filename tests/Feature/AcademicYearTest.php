@@ -3,7 +3,6 @@ namespace Tests\Feature;
 use App\Traits\FeatureTestTrait;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
-
 class AcademicYearTest extends TestCase
 {
     use RefreshDatabase;
