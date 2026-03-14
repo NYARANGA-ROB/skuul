@@ -21,7 +21,6 @@ use Illuminate\Support\Facades\DB;
 | Should I add easter eggs?
 |
 */
-
 <<<<<<< HEAD
 // Test route to check database connection
 Route::get('/test-db', function () {
