@@ -80,7 +80,6 @@ Route::middleware('auth:sanctum', 'verified', 'App\Http\Middleware\PreventLockAc
 
         //class routes
         Route::resource('classes', MyClassController::class);
-
         //class groups routes
         Route::resource('class-groups', ClassGroupController::class);
 
