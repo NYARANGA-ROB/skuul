@@ -14,7 +14,6 @@ class AcademicYearTest extends TestCase
             ->get('/dashboard/academic-years')->assertForbidden();
     }
     // test authorized user can see academic years
-
     public function test_authorized_user_can_see_academic_years()
     {
         $this->authorized_user(['read academic year'])
