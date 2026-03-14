@@ -184,7 +184,6 @@ Route::middleware('auth:sanctum', 'verified', 'App\Http\Middleware\PreventLockAc
 
                 //result checker
                 Route::get('exams/result-checker', ['App\Http\Controllers\ExamController', 'resultChecker'])->name('exams.result-checker');
-
                 //exam routes
                 Route::resource('exams', ExamController::class);
 
