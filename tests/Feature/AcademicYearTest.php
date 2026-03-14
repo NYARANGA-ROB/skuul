@@ -8,7 +8,6 @@ class AcademicYearTest extends TestCase
     use RefreshDatabase;
     use FeatureTestTrait;
     // test ubauthorized user cannot see academic years
-
     public function test_unauthorized_user_cannot_see_academic_years()
     {
         $this->unauthorized_user()
