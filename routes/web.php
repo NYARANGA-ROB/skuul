@@ -50,7 +50,6 @@ Route::get('/test-db', function () {
         ], 500);
     }
 });
-
 =======
 >>>>>>> e327a8efde9094f66181c9b195fbe5df035baa20
 Route::get('/', function () {
