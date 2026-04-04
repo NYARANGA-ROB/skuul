@@ -21,6 +21,7 @@
     "dependencies": {
         "@alpinejs/persist": "^3.10.5",
         "@fortawesome/fontawesome-free": "^6.2.1",
+        
         "alpinejs": "^3.10.5"
 =======
         "dev": "npm run development",
