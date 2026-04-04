@@ -6,7 +6,6 @@
         "build": "vite build"
     },
     "devDependencies": {
-        
         "autoprefixer": "^10.4.13",
         
         "axios": "^1.8.2",
