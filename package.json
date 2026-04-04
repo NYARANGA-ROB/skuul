@@ -25,6 +25,7 @@
         "alpinejs": "^3.10.5"
 =======
         "dev": "npm run development",
+        
         "development": "mix",
         "watch": "mix watch",
         "watch-poll": "mix watch -- --watch-options-poll=1000",
