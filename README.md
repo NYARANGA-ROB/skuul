@@ -1,6 +1,5 @@
 <<<<<<< HEAD
 # Skuul school management system
-
 <p align="center">
     <!-- <a href="https://packagist.org/packages/yungifez/skuul">
         <img src="https://poser.pugx.org/yungifez/skuul/d/total.svg" alt="Total Composer Downloads">
