@@ -11,6 +11,7 @@
         "school-management"
     ],
     "license": "MIT",
+    
     "require": {
         "php": "^8.1",
         "barryvdh/laravel-dompdf": ">1.0",
