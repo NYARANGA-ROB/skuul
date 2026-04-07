@@ -25,7 +25,6 @@ return [
     |
     */
     'connections' => [
-
         'pusher' => [
 <<<<<<< HEAD
             'driver'  => 'pusher',
