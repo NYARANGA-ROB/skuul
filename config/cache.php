@@ -25,7 +25,6 @@ return [
     |         "memcached", "redis", "dynamodb", "octane", "null"
     |
     */
-
     'stores' => [
         'apc' => [
             'driver' => 'apc',
