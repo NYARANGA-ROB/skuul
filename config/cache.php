@@ -105,7 +105,6 @@ return [
 >>>>>>> 80e3dc5 (First commit)
             'lock_connection' => 'default',
         ],
-
         'dynamodb' => [
 <<<<<<< HEAD
             'driver'   => 'dynamodb',
