@@ -53,7 +53,6 @@ class CreateNewUser implements CreatesNewUsers
             'gender'      => $input['gender'],
             'phone'       => $input['phone'],
         ]);
-
         if (isset($input['photo'])) {
             $user->updateProfilePhoto($input['photo']);
         }
