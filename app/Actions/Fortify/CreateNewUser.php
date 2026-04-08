@@ -56,7 +56,6 @@ class CreateNewUser implements CreatesNewUsers
         if (isset($input['photo'])) {
             $user->updateProfilePhoto($input['photo']);
         }
-
         try {
             $user->sendEmailVerificationNotification();
         } catch (Throwable $e) {
