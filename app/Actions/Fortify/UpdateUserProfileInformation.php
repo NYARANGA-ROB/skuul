@@ -54,7 +54,6 @@ class UpdateUserProfileInformation implements UpdatesUserProfileInformation
                 'phone'       => $input['phone'] ?? '',
             ])->save();
         }
-
         return $user;
     }
 
