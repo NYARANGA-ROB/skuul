@@ -11,4 +11,5 @@ js:
   finder:
     not-name:
       - webpack.mix.js
+      
 css: true
