@@ -4,6 +4,7 @@ return array (
     'normal' => $rootDir . '/lib/fonts/Helvetica',
 
     'bold' => $rootDir . '/lib/fonts/Helvetica-Bold',
+      
     'italic' => $rootDir . '/lib/fonts/Helvetica-Oblique',
     'bold_italic' => $rootDir . '/lib/fonts/Helvetica-BoldOblique',
   ),
