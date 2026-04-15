@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Casts;
 
 use Brick\Money\Money as BrickMoney;
