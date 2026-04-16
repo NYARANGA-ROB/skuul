@@ -8,7 +8,6 @@ return [
 	'attributes' => [
 		'phone' => 'telefon|telefoane',
 		'country' => 'țară|țări',
-    
 		'city' => 'oraș|orase',
     
 		'state' => 'judet|judete',
