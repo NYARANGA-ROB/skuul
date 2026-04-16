@@ -15,6 +15,7 @@ return [
 		'state' => 'judet|judete',
     
 		'timezone' => 'fus orar|fusuri orare',
+    
 		'currency' => 'valută|valute',
 		'language' => 'limba|limbi',
 	],
