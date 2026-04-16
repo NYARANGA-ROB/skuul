@@ -7,7 +7,6 @@ return [
 	],
 	'attributes' => [
 		'phone' => 'telefone|telefones',
-    
 		'country' => 'país|países',
     
 		'city' => 'cidade|cidades',
