@@ -11,6 +11,7 @@ return [
 		'country' => 'țară|țări',
     
 		'city' => 'oraș|orase',
+    
 		'state' => 'judet|judete',
 		'timezone' => 'fus orar|fusuri orare',
 		'currency' => 'valută|valute',
