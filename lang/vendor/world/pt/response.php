@@ -9,6 +9,7 @@ return [
 		'phone' => 'telefone|telefones',
     
 		'country' => 'país|países',
+    
 		'city' => 'cidade|cidades',
 		'state' => 'estados|estado',
 		'timezone' => 'fuso horário|fusos horários',
