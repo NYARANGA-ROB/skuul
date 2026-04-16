@@ -13,6 +13,7 @@ return [
 		'city' => 'oraș|orase',
     
 		'state' => 'judet|judete',
+    
 		'timezone' => 'fus orar|fusuri orare',
 		'currency' => 'valută|valute',
 		'language' => 'limba|limbi',
