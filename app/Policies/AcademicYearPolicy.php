@@ -62,7 +62,6 @@ class AcademicYearPolicy
     {
         //
     }
-
     /**
      * Determine whether the user can permanently delete the model.
      */
