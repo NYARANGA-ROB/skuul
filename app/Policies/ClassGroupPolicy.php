@@ -6,7 +6,6 @@ use Illuminate\Auth\Access\HandlesAuthorization;
 class ClassGroupPolicy
 {
     use HandlesAuthorization;
-
     /**
      * Determine whether the user can view any models.
      */
