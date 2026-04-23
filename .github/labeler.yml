@@ -19,7 +19,6 @@ dependencies:
   - package.json
   - yarn.lock
   - composer.lock
-
 # label definition for tests
 tests: 
   - tests/**
