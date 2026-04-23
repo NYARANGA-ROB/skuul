@@ -78,7 +78,6 @@ class UpdateUserProfileInformation implements UpdatesUserProfileInformation
             'gender'            => $input['gender'],
             'phone'             => $input['phone'] ?? '',
         ])->save();
-
         $user->sendEmailVerificationNotification();
 
         return $user;
