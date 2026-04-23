@@ -10,7 +10,6 @@ services:
     # See https://aka.ms/vscode-remote/containers/non-root for details.
     #
     user: sail
-
     # Uncomment if you want to override the service's Dockerfile to one in the .devcontainer 
     # folder. Note that the path of the Dockerfile and context is relative to the *primary* 
     # docker-compose.yml file (the first in the devcontainer.json "dockerComposeFile"
