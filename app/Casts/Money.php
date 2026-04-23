@@ -30,7 +30,6 @@ class Money implements CastsAttributes
         if (!$value instanceof BrickMoney) {
             return BrickMoney::of($value, config('app.currency'))->getMinorAmount()->toInt();
         }
-
         return $value->getMinorAmount()->toInt();
     }
 }
