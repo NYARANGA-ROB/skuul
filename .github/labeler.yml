@@ -6,7 +6,6 @@ PHP:
   - database/**
   - routes/**
   - tests/**
-
 # label definition for blade files
 blade:
   - resources/views/**
