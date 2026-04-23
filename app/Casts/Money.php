@@ -17,7 +17,6 @@ class Money implements CastsAttributes
         }
         return BrickMoney::ofMinor($value, config('app.currency'));
     }
-
     /**
      * Prepare the given value for storage.
      *
