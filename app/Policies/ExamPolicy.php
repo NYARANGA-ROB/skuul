@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Policies;
 use App\Models\Exam;
 use App\Models\User;
