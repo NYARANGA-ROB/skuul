@@ -27,7 +27,6 @@ class ExamPolicy
             return true;
         }
     }
-
     /**
      * Determine whether the user can create models.
      */
