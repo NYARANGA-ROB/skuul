@@ -32,4 +32,5 @@ class Money implements CastsAttributes
         }
         return $value->getMinorAmount()->toInt();
     }
+    
 }
