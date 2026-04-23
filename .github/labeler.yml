@@ -9,7 +9,6 @@ PHP:
 # label definition for blade files
 blade:
   - resources/views/**
-
 # label definition for js files
 js:
   - resources/js/**
