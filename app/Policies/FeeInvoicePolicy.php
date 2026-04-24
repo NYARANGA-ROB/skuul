@@ -51,7 +51,6 @@ class FeeInvoicePolicy
             return true;
         }
     }
-
     /**
      * Determine whether the user can restore the model.
      */
