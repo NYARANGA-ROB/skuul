@@ -35,7 +35,6 @@ class FeeCategoryPolicy
         if ($user->can('create fee category')) {
             return true;
         }
-
         return null;
     }
 
