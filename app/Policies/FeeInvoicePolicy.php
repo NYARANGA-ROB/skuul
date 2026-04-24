@@ -33,7 +33,6 @@ class FeeInvoicePolicy
             return true;
         }
     }
-
     /**
      * Determine whether the user can update the model.
      */
