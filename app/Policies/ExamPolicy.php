@@ -69,7 +69,6 @@ class ExamPolicy
     {
         //
     }
-
     /**
      * Determine whether the user can check result.
      */
