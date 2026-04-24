@@ -5,7 +5,6 @@ namespace App\Policies;
 use App\Models\ExamSlot;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
-
 class ExamSlotPolicy
 {
     use HandlesAuthorization;
