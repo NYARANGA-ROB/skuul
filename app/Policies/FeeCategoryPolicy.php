@@ -47,7 +47,6 @@ class FeeCategoryPolicy
         if ($user->can('update fee category') && $feeCategory->school->id == auth()->user()->school->id) {
             return true;
         }
-
         return null;
     }
 
