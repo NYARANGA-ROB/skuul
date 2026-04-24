@@ -16,7 +16,6 @@ class FeeCategoryPolicy
 
         return null;
     }
-
     /**
      * Determine whether the user can view the model.
      */
