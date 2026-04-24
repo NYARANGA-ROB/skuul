@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Policies;
-
 use App\Models\FeeCategory;
 use App\Models\User;
 class FeeCategoryPolicy
