@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Policies;
-
 use App\Models\Notice;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
