@@ -57,7 +57,6 @@ class FeeCategoryPolicy
         if ($user->can('delete fee category') && $feeCategory->school->id == auth()->user()->school->id) {
             return true;
         }
-
         return null;
     }
 
