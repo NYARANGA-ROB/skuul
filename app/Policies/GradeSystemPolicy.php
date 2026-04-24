@@ -7,7 +7,6 @@ use Illuminate\Auth\Access\HandlesAuthorization;
 class GradeSystemPolicy
 {
     use HandlesAuthorization;
-
     /**
      * Determine whether the user can view any models.
      */
