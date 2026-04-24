@@ -45,7 +45,6 @@ class ExamSlotPolicy
             return true;
         }
     }
-
     /**
      * Determine whether the user can delete the model.
      */
