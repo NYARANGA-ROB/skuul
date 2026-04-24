@@ -4,7 +4,6 @@ namespace App\Policies;
 use App\Models\ExamRecord;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
-
 class ExamRecordPolicy
 {
     use HandlesAuthorization;
