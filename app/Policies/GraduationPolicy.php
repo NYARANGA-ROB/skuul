@@ -22,7 +22,6 @@ class GraduationPolicy
         if (!$model->hasRole('student')) {
             return false;
         }
-
         if ($user->can('reset graduation') && $model->school_id == $user->school_id) {
             return true;
         }
