@@ -10,7 +10,6 @@ class GraduationPolicy
             return true;
         }
     }
-
     public function graduate(User $user)
     {
         if ($user->can('graduate student')) {
