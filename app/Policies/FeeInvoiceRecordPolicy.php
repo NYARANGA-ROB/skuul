@@ -4,7 +4,6 @@ namespace App\Policies;
 
 use App\Models\FeeInvoiceRecord;
 use App\Models\User;
-
 class FeeInvoiceRecordPolicy
 {
     /**
