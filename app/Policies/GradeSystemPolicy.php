@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Policies;
-
 use App\Models\GradeSystem;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
