@@ -1,7 +1,6 @@
 <?php
 namespace App\Casts;
 use Brick\Money\Money as BrickMoney;
-
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 
 use Illuminate\Database\Eloquent\Model;
