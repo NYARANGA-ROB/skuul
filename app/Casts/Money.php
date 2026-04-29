@@ -6,6 +6,7 @@ use Brick\Money\Money as BrickMoney;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 
 use Illuminate\Database\Eloquent\Model;
+
 class Money implements CastsAttributes
 {
     /**
